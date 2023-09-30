@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    margin-top: 100px;
+}
+main{
+    width:100%;
+    padding-top: 10px;
+    background-color: rgb(240, 246, 170);
+}
+.card{
+    position:static;
+}
+.nav-bar{
+    position:fixed;
+    overflow: hidden;
+    width: 100%;
+    /* margin-top: 10px; */
+    background-color: rgb(240, 246, 170) ;
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius:20px;
+    border-bottom: 5px solid rgb(228, 176, 145);
+}
+.nav-icon-1>a{
+    text-decoration: none;
+    color: black;
+}
+.nav-search{
+    text-align: center;
+    border-radius: 5px;
+    border-color:bisque;
+}
+.hero-text{
+    width: 350px;
+    height: 350px;
+}
+.hero>img{
+    width: 500px;
+    height: 450px;
+}
+.myspecial-1{
+    box-sizing: border-box;
+    width: 300px;
+}
+.myspecial{
+    box-sizing: border-box;
+    width: 210px;
+}
+.myspecial>img{
+    width: auto;
+}
+#menu>a{
+    text-decoration: none;
+    color: black;
+}
+.my-food{
+    width: 200px;
+}
+.my-btn{
+    border-radius:5px;
+    border-color:rgb(177, 57, 57);
+    width: 120px;
+}
+.review{
+    margin-top: 50px;
+}
+.feedback-1{
+    border-radius: 15px;
+    width: 400px;
+}
+#block{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: url("Call to Action (1).svg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    overflow:inherit;
+}
+#block>img{
+    height: 600px;
+}
+.block-1{
+    width: 450px;
+    margin-top: 60px;
+}
+.my-btn-1{
+    color:white;
+    background-color: black;
+    width: 180px;
+    border-radius: 15px;
+    font-size: 15px;
+
+}
+.footer-block{
+    width: 300px;
+}
+footer{
+    background-color: rgb(243, 220, 155);
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top-left-radius:50px;
+    border-top-right-radius:50px;
+}
